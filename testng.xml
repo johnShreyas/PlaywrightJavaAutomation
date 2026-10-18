@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" parallel="classes">
+    <test name="RegressionTests">
+        <classes>
+            <class name="Tests.FrameworkBuildTest"/>
+            <class name="Tests.MoreUIValidationsTest"/>
+
+
+        </classes>
+    </test>
+</suite>
